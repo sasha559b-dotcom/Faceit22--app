@@ -1,0 +1,17 @@
+# База данных бота (не заливать в GitHub!)
+faceit_db.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+
+# Системное
+.DS_Store
+.env
+*.log
