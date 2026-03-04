@@ -25,7 +25,7 @@ BOT_TOKEN  = _os.environ.get("BOT_TOKEN") or "7818313573:AAHTfCBvQEELEtsG7BRvIcN
 ADMIN_IDS  = [5839642306]
 DATA_FILE  = "faceit_db.json"
 
-MAPS_LIST      = ["Dust2", "Inferno", "Mirage", "Nuke", "Overpass", "Anubis", "Vertigo"]
+MAPS_LIST      = ["Palace", "Maramash", "Mirage", "Almero"]
 LOBBY_5V5_SIZE = 10
 LOBBY_2V2_SIZE = 4
 PICK_TIMEOUT   = 60
@@ -38,7 +38,7 @@ BOT_ID_START = -100000
 NOT_REGISTERED_MSG = (
     "❌ <b>Вы не зарегистрированы!</b>\n\n"
     "Для регистрации введите:\n"
-    "<code>/reg FACEIT_ID Никнейм</code>\n\n"
+    "<code>/reg Game_ID Никнейм</code>\n\n"
     "Пример: <code>/reg abc123 ProPlayer</code>"
 )
 
