@@ -21,7 +21,7 @@ from telegram.constants import ParseMode
 # ════════════════════════════════════════════════
 
 import os as _os
-BOT_TOKEN  = _os.environ.get("BOT_TOKEN") or "7818313573:AAHTfCBvQEELEtsG7BRvIcNrxgJ9dckBmlI"
+BOT_TOKEN  = _os.environ.get("BOT_TOKEN")
 ADMIN_IDS  = [5839642306]
 DATA_FILE  = "faceit_db.json"
 
